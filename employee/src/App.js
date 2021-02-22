@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { Component } from "react";
 import logo from './logo.svg';
 import './App.css';
+import SearchResult from "./components/SearchResult";
 
 
-function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  )
+class App extends Component {
+  render(){
+    return (
+      <SearchResult />
+    );
+  }
 }
 
 export default App;
