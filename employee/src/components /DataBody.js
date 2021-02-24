@@ -1,4 +1,6 @@
 import React, { useContext } from "react";
+import DataTable from "./DataTable";
+
 import "../styles/DataBody.css";
 import DataAreaContext from "../utils/DataAreaContext";
 
@@ -46,7 +48,7 @@ const DataBody = () => {
           );
         })
       ) : (
-        <></>
+        <DataTable/>
       )}
     </tbody>
   );
